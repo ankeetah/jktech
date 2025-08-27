@@ -1,0 +1,3 @@
+from chaining of req 34
+Using stored auth token
+Deleted newly created Book: { message: 'Book deleted successfully' }

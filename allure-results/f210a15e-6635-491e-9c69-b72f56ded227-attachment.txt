@@ -1,0 +1,9 @@
+Using stored auth token
+Created Books response: {
+  published_year: 2025,
+  id: 35,
+  author: 'Jules Verne',
+  book_summary: 'Poetry',
+  name: 'The Idiot'
+}
+just now created book id 35

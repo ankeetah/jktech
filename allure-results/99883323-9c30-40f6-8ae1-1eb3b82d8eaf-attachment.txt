@@ -1,0 +1,9 @@
+Using stored auth token
+Created Books response: {
+  published_year: 2026,
+  id: 17,
+  author: 'Henry Miller',
+  book_summary: 'Comedy',
+  name: 'Revolutionary Road'
+}
+just now created book id 17

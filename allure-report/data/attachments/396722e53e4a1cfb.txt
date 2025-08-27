@@ -1,0 +1,9 @@
+from chaining of req 66
+Using stored auth token
+Get Books by ID response: {
+  published_year: 2026,
+  id: 66,
+  author: 'James Baldwin',
+  book_summary: 'Classic',
+  name: 'Dracula'
+}

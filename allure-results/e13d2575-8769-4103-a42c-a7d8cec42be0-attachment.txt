@@ -1,0 +1,10 @@
+from chaining of req 66
+Using stored auth token
+Updated Book: {
+  published_year: 2026,
+  id: 66,
+  author: 'James Baldwin',
+  book_summary: 'Classic',
+  name: 'Dracula edited'
+}
+The name of book updated from Dracula to  Dracula edited

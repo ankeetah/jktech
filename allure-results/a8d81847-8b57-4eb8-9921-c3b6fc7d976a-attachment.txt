@@ -1,0 +1,10 @@
+from chaining of req 11
+Using stored auth token
+Updated Book: {
+  published_year: 2025,
+  id: 11,
+  author: 'Sir Richard Francis Burton',
+  book_summary: 'Mythology',
+  name: 'Paradise Lost edited'
+}
+The name of book updated from Paradise Lost to  Paradise Lost edited

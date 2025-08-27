@@ -1,0 +1,9 @@
+from chaining of req 34
+Using stored auth token
+Get Books by ID response: {
+  published_year: 2025,
+  id: 34,
+  author: 'Vance Packard',
+  book_summary: 'Young Adult',
+  name: "Grimms' Fairy Tales"
+}

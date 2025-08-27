@@ -1,0 +1,10 @@
+from chaining of req 18
+Using stored auth token
+Updated Book: {
+  published_year: 2024,
+  id: 18,
+  author: 'Truman Capote',
+  book_summary: 'Comedy',
+  name: 'Stories of Anton Chekhov edited'
+}
+The name of book updated from Stories of Anton Chekhov to  Stories of Anton Chekhov edited

@@ -1,0 +1,10 @@
+from chaining of req 35
+Using stored auth token
+Updated Book: {
+  published_year: 2025,
+  id: 35,
+  author: 'Jules Verne',
+  book_summary: 'Poetry',
+  name: 'The Idiot edited'
+}
+The name of book updated from The Idiot to  The Idiot edited

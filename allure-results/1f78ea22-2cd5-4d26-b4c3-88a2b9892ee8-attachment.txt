@@ -1,0 +1,9 @@
+Using stored auth token
+Created Books response: {
+  published_year: 2025,
+  id: 52,
+  author: 'L.M. Montgomery',
+  book_summary: 'Mystery',
+  name: 'Great Expectations'
+}
+just now created book id 52

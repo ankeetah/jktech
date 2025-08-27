@@ -1,0 +1,9 @@
+from chaining of req 17
+Using stored auth token
+Get Books by ID response: {
+  published_year: 2026,
+  id: 17,
+  author: 'Henry Miller',
+  book_summary: 'Comedy',
+  name: 'Revolutionary Road'
+}

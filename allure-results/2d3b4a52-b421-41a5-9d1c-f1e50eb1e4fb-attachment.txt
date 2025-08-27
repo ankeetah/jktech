@@ -1,0 +1,9 @@
+from chaining of req 18
+Using stored auth token
+Get Books by ID response: {
+  published_year: 2024,
+  id: 18,
+  author: 'Truman Capote',
+  book_summary: 'Comedy',
+  name: 'Stories of Anton Chekhov'
+}

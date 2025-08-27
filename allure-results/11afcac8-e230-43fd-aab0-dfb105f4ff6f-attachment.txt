@@ -1,0 +1,10 @@
+from chaining of req 34
+Using stored auth token
+Updated Book: {
+  published_year: 2025,
+  id: 34,
+  author: 'Vance Packard',
+  book_summary: 'Young Adult',
+  name: "Grimms' Fairy Tales edited"
+}
+The name of book updated from Grimms' Fairy Tales to  Grimms' Fairy Tales edited

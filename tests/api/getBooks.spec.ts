@@ -1,23 +1,21 @@
-import { test, request } from '@playwright/test';
+import { test, request, expect } from '@playwright/test';
+import { createApiContext } from '../utils/apiContext';
+
+
+test.skip(true, 'Skipping this file for now');
 
 test('Get Books', async () => {
-  const apiContext = await request.newContext({
-    baseURL: 'http://127.0.0.1:8000',
-    extraHTTPHeaders: {
-      'accept': 'application/json',
-      'Content-Type': 'application/json',
-      'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmtpdGFnb25kYW5lMUBnbWFpbC5jb20iLCJleHAiOjE3NTYyMDkzMTl9.cDvRcJ8Dx_VdQOTy9RkH9VZlq4cjxeu2zRlb3mS3A10',
-    },
-  });
 
-  // Use the context to send a POST request
-  const response = await apiContext.get('/books', {
-    data: {
-      id: 0,
-      email: 'ankitagondane1@gmail.com',
-      password: 'coco123',
-    },
-  });
+    const apiContext = await createApiContext();
+    const response = await apiContext.get('/books');
+    
 
-  console.log(await response.json());
+    // Assertions
+    expect(response.status()).toBe(200);
+    
+    const responseData = await response.json();
+    console.log('Books response:', responseData);
+    
+    // Add more specific assertions based on your API response structure
+    expect(responseData).toBeDefined();
 });

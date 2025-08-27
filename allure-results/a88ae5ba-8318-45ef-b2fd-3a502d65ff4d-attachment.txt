@@ -1,0 +1,9 @@
+Using stored auth token
+Created Books response: {
+  published_year: 2025,
+  id: 30,
+  author: 'W.K. Marriott',
+  book_summary: 'Philosophy',
+  name: 'Housekeeping'
+}
+just now created book id 30

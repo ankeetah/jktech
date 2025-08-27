@@ -1,0 +1,9 @@
+Using stored auth token
+Created Books response: {
+  published_year: 2026,
+  id: 66,
+  author: 'James Baldwin',
+  book_summary: 'Classic',
+  name: 'Dracula'
+}
+just now created book id 66

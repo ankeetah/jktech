@@ -1,0 +1,9 @@
+Using stored auth token
+Created Books response: {
+  published_year: 2024,
+  id: 18,
+  author: 'Truman Capote',
+  book_summary: 'Comedy',
+  name: 'Stories of Anton Chekhov'
+}
+just now created book id 18

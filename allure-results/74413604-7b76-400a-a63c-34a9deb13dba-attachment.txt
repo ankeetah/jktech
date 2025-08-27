@@ -1,0 +1,9 @@
+Using stored auth token
+Created Books response: {
+  published_year: 2025,
+  id: 11,
+  author: 'Sir Richard Francis Burton',
+  book_summary: 'Mythology',
+  name: 'Paradise Lost'
+}
+just now created book id 11
