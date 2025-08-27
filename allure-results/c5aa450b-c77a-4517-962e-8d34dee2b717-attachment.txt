@@ -1,0 +1,10 @@
+from chaining of req 69
+Using stored auth token
+Updated Book: {
+  published_year: 2025,
+  id: 69,
+  author: 'Cormac McCarthy',
+  book_summary: 'Religion',
+  name: 'Lolita edited'
+}
+The name of book updated from Lolita to  Lolita edited

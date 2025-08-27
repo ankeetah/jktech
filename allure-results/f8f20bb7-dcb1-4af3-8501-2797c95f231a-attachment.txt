@@ -1,0 +1,9 @@
+Using stored auth token
+Created Books response: {
+  published_year: 2025,
+  id: 69,
+  author: 'Cormac McCarthy',
+  book_summary: 'Religion',
+  name: 'Lolita'
+}
+just now created book id 69

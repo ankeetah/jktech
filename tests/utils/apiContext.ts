@@ -1,9 +1,15 @@
 import fs from 'fs';
-import path from 'path';
+import { getProperty } from './propertiesManager';
 import { request, APIRequestContext } from '@playwright/test';
+import dotenv from "dotenv";
+import { defaultHeaders } from '../../playwright.config';
+require('dotenv').config;
+dotenv.config();
 
 export async function createApiContext(): Promise<APIRequestContext> {
-  const tokenFile = path.join(__dirname, '../../.auth/token.json');
+  // const tokenFile = path.join(__dirname, '../../.auth/token.json');
+  const tokenFile = getProperty('TOKEN_FILE');
+  const URL = getProperty('BASE_URL');
 
   let authToken = '';
   try {
@@ -20,10 +26,9 @@ export async function createApiContext(): Promise<APIRequestContext> {
   }
 
   const apiContext = await request.newContext({
-    baseURL: 'http://127.0.0.1:8000',
+    baseURL: URL,
     extraHTTPHeaders: {
-      accept: 'application/json',
-      'Content-Type': 'application/json',
+      ...defaultHeaders,
       Authorization: `Bearer ${authToken}`,
     },
   });
