@@ -4,7 +4,6 @@ import { createApiContext } from '../utils/apiContext';
 test.skip(true, 'Skipping this file for now');
 test.describe.serial('Book: create, get, update and delete flow tests', () => {
     let createdBook: any;
-
     test('Create a new book', async ({ newBookDetails }) => {
         const apiContext = await createApiContext();
         const response = await apiContext.post('/books', {

@@ -1,0 +1,8 @@
+Using stored auth token
+Error for using the existing ID {
+  published_year: 2025,
+  id: 99,
+  author: 'George R. R. Martin',
+  book_summary: 'Philosophy',
+  name: 'One Thousand and One Nights'
+}
