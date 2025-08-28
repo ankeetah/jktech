@@ -7,10 +7,9 @@ require('dotenv').config;
 dotenv.config();
 
 export async function createApiContext(): Promise<APIRequestContext> {
-  // const tokenFile = path.join(__dirname, '../../.auth/token.json');
+
   const tokenFile = getProperty('TOKEN_FILE');
   const URL = getProperty('BASE_URL');
-
   let authToken = '';
   try {
     if (fs.existsSync(tokenFile)) {

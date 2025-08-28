@@ -1,0 +1,113 @@
+Using stored auth token
+Get Books response: [
+  {
+    published_year: 1990,
+    id: 0,
+    author: 'sathe',
+    book_summary: 'Novel',
+    name: 'Fakir'
+  },
+  {
+    published_year: 2000,
+    id: 1,
+    author: 'Yogita Yadav',
+    book_summary: 'Novel',
+    name: 'Date with Devdas'
+  },
+  {
+    published_year: 2025,
+    id: 12,
+    author: 'Carson McCallers',
+    book_summary: 'Business',
+    name: 'In Search of Lost Time'
+  },
+  {
+    published_year: 2025,
+    id: 19,
+    author: 'Thomas Love Peacock',
+    book_summary: 'Psychology',
+    name: 'The Good Soldier'
+  },
+  {
+    published_year: 2024,
+    id: 29,
+    author: 'Herman Melville',
+    book_summary: 'Biography',
+    name: "One Flew Over the Cuckoo's Nest"
+  },
+  {
+    published_year: 2025,
+    id: 37,
+    author: 'Nathaniel Hawthorne',
+    book_summary: 'Fantasy',
+    name: 'The Thirty-Nine Steps'
+  },
+  {
+    published_year: 2026,
+    id: 46,
+    author: 'Bram Stoker',
+    book_summary: 'Drama',
+    name: 'The Three Musketeers'
+  },
+  {
+    published_year: 2025,
+    id: 67,
+    author: 'Honoré de Balzac',
+    book_summary: 'Historical Fiction',
+    name: 'A Brief History of Time'
+  },
+  {
+    published_year: 2025,
+    id: 72,
+    author: 'Emily Brontë',
+    book_summary: 'Biography',
+    name: 'The Color Purple'
+  },
+  {
+    published_year: 2025,
+    id: 73,
+    author: 'James Joyce',
+    book_summary: 'Romance',
+    name: 'Don Quixote'
+  },
+  {
+    published_year: 2025,
+    id: 78,
+    author: 'J.M. Barrie',
+    book_summary: 'Religion',
+    name: 'Pale Fire'
+  },
+  {
+    published_year: 2024,
+    id: 86,
+    author: 'Rudyard Kipling',
+    book_summary: 'Psychology',
+    name: 'One Hundred Years of Solitude'
+  },
+  {
+    published_year: 2025,
+    id: 89,
+    author: 'Stendhal',
+    book_summary: 'Young Adult',
+    name: 'One Thousand and One Nights'
+  },
+  {
+    published_year: 2026,
+    id: 94,
+    author: 'Geoffrey Chaucer',
+    book_summary: 'Thriller',
+    name: 'Paradise Lost'
+  },
+  {
+    published_year: 2024,
+    id: 97,
+    author: 'Raymond Chandler',
+    book_summary: 'Philosophy',
+    name: 'Life of Pi'
+  }
+]
+[
+   0,  1, 12, 19, 29, 37,
+  46, 67, 72, 73, 78, 86,
+  89, 94, 97
+]

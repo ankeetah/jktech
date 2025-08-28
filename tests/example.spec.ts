@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-test.skip();
+test.skip(true, 'Skipping this file for now');
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
