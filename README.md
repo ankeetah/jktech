@@ -11,6 +11,9 @@ I have used Libraries such as Faker, to generate the Book Details.
 Last part of assignment was supposed to be for the CI/CD integration, my builts on repo are failing despite setting the actions secret keys,
 this will need the debugging and in interest of time for the submission of this project I am unable to add the CI/CD integration.
 
+To run the tests in this framework. kinfly clone this repo or download as zip.
+Kindly make sure, "npm install --save-dev @faker-js/faker" and "npm install dotenv" this is installed if you have downloaded as zip.
+
 I have also added the solo services, but have used the skip as of now for them. 
 
 Thank you.
